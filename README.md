@@ -10,7 +10,7 @@ Yeah, the name doesn't make a ton of sense, but anyways, I thought this was pret
 The dependancies required to run the script are in `requirments.txt`.  This was built using python 3.6.5, you can install the dependancies with the command  
 `pip install -r requirements.txt`  
 To add effects chains to the songs such as reverb, you need [SoX](http://sox.sourceforge.net/) installed on your computer. If you are on Windows, make sure you add SoX to PATH in enviorment variables. The web app also now has the funcitonality to download a song from youtube given a link. In order for this to run locally, you may also need ffprobe or avprobe. I use ffprobe, you can download it [here](https://www.ffmpeg.org/download.html).  
-The system architecture is as follows.  
+The system architecture is as follows :-
 * `app.py` 
   * This is the main script to launch the flask app
 * `audio_features.py`
